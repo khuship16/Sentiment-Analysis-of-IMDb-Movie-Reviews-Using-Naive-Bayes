@@ -1,5 +1,16 @@
 # Sentiment-Analysis-of-IMDb-Movie-Reviews-Using-Naive-Bayes
 
-In this project, we will be applying sentiment analysis techniques to classify IMDb movie reviews as positive or negative. Using the Naive Bayes classifier, we aim to preprocess the dataset, use specific vectorization techniques, and implement n-gram representations and tuning parameters to overall improve the accuracy and preci- sion of our model.
+This project applies Naive Bayes for sentiment analysis of IMDb movie reviews. 
 
-Sentiment analysis is a powerful tool for interpreting opinions within large volumes of text, making it particularly useful in fields where large amounts of user-generated content is produced. As the prevalence of this large scale content creation increases, it is im- portant to fine-tune sentiment analysis techniques in order to gain valuable insights from data. In this project, we aim to apply senti- ment analysis to a dataset of IMDb movie reviews. The classifier will categorize IMDb movie reviews as either positive or negative based on the content of the text. We will use this project as a way to explore sentiment analysis, as well as apply the techniques learned in CS 410.
+📄 **[Full Report (PDF)](./Sentiment_Review_Full_Report.pdf)**
+
+## Overview
+- Implemented text preprocessing with stopword removal, TF-IDF, and n-gram vectorization.
+- Developed multiple Naive Bayes models (Unigram, Bigram, IDF, Mixture).
+- Evaluated model performance using accuracy, precision, recall, and confusion matrices.
+
+## Technologies Used
+- **Languages:** Python
+- **Libraries:** Pandas, NumPy, Scikit-Learn, Matplotlib
+- **Techniques:** Naive Bayes, TF-IDF, N-grams, Laplace Smoothing, Confusion Matrices
+
